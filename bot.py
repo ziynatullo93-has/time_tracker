@@ -5,7 +5,7 @@ import requests
 TOKEN = "8941576295:AAEQ9O6Im9UHBqJrnhALlsefT9qc0TfQI5w"
 bot = telebot.TeleBot(TOKEN)
 
-NGROK_URL = "https://occupancy-dismay-gleaming.ngrok-free.dev/api/check-in"
+NGROK_URL = "https://time-tracker-hn9e.onrender.com/api/check-in"
 
 user_actions = {}
 user_locations = {}
