@@ -12,4 +12,4 @@ COPY . .
 EXPOSE 10000
 
 # Надежный запуск через python-модуль с учетом порта Render
-CMD ["sh", "-c", "python -m uvicorn main:app --host 0.0.0.0 --port ${PORT:-10000}"]
+CMD ["python", "bot.py"]
