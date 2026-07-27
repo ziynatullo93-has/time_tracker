@@ -1,6 +1,0 @@
-fastapi
-uvicorn
-telebot
-requests
-openpyxl
-pydantic
