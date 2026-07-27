@@ -4,3 +4,4 @@ telebot
 requests
 openpyxl
 pydantic
+pyTelegramBotAPI
