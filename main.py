@@ -7,7 +7,7 @@ import math
 from datetime import datetime
 
 app = FastAPI()
-
+# app.mount("/static", StaticFiles(directory="static"), name="static")
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 DB_NAME = "database.db"
